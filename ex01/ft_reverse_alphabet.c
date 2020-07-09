@@ -1,15 +1,21 @@
 
-void ft_putchar(char );
+ void ft_putchar( char c);
 
 void ft_print_reverse_alphabet(void)
 {
-		char current_alph = 'z';
+		char current_alph;
+		int iter;
 
-		for (int i=0 ; i < 26 ; i++)
+		current_alph = 'z';
+		iter = 0;
+
+		while (iter < 26)
 		{
 			ft_putchar(current_alph);
 
 			current_alph--;
+			iter++;
 		}
 }
+
 
