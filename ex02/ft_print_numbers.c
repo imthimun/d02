@@ -4,8 +4,11 @@
 
 void ft_print_numbers(void)
 {
-	char current_number ='0';
-	int iteration = 0;
+	char current_number;
+	int iteration ;
+
+	current_number = '0';
+	iteration = 0;
 
 	while( iteration < 10 )
 	{
