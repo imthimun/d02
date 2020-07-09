@@ -1,18 +1,20 @@
 
  void ft_putchar( char c);
 
+
 void ft_print_numbers(void)
 {
-	int current_number ='0';
+	char current_number ='0';
+	int iteration = 0;
 
-	for( int i=0 ; i < 10 ; i++ )
+	while( iteration < 10 )
 	{
 			ft_putchar(current_number);
 
 			current_number++;
+			iteration ++;
 	}
 }
-
 
 
 
